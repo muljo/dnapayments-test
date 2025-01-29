@@ -1,0 +1,6 @@
+@DNA_Payments_HostAddress = http://localhost:5197
+
+GET {{DNA_Payments_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

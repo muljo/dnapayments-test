@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNA_Payments", "DNA_Payments\DNA_Payments.csproj", "{876AA58A-3AD4-423C-B0FE-A79EF0AC9DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{876AA58A-3AD4-423C-B0FE-A79EF0AC9DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876AA58A-3AD4-423C-B0FE-A79EF0AC9DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876AA58A-3AD4-423C-B0FE-A79EF0AC9DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876AA58A-3AD4-423C-B0FE-A79EF0AC9DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
