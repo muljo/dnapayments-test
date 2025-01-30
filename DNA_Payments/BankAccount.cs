@@ -16,7 +16,7 @@ public class BankAccount
     
     public string Name { get; }
     
-    public bool IsFrozen { get; }
+    public bool IsFrozen { get; set; }
 
     public BankAccount(Guid id, string accountNumber, BankAccountType bankAccountType, string name, bool isFrozen)
     {
