@@ -8,7 +8,9 @@ public enum BankAccountType
 
 public class BankAccount
 {
-    public Guid Id { get;}
+    public Guid Id { get; }
+    
+    public string AccountNumber { get; }
     
     public BankAccountType BankAccountType { get; }
     
@@ -16,9 +18,10 @@ public class BankAccount
     
     public bool IsFrozen { get; }
 
-    public BankAccount(Guid id, BankAccountType bankAccountType, string name, bool isFrozen)
+    public BankAccount(Guid id, string accountNumber, BankAccountType bankAccountType, string name, bool isFrozen)
     {
         Id = id;
+        AccountNumber = accountNumber;
         BankAccountType = bankAccountType;
         Name = name;
         IsFrozen = isFrozen;
